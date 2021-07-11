@@ -4,6 +4,7 @@
 - remove extra characters from title:
   - simple quotation mark `'`
   - hyphen `-`
+- don't print to screen when saving article as a file
 
 --
 # Plaintext Article
@@ -20,7 +21,7 @@ Print article on screen
 $ python plaintext_article.py https://articles.xyz/some-article
 ```
 
-Print article on screen and save it as an `.md` file.
+Save it as an `.md` file.
 
 ```
 $ python plaintext_article.py https://articles.xyz/some-article -s
