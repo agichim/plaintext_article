@@ -4,11 +4,11 @@ import sys
 
 usage = (
     "usage: txt.py URL [-p]\n"
-    "\nPrint article to the screen. Optionally write it to a .txt file\n\n"
+    "\nPrint article to the screen. Optionally write it to a .md file\n\n"
     "positional arguments:\n"
     "    URL                  URL of the page you want the text from.\n\n"
     "optional arguments:\n"
-    "    -s                   Write article to a .txt file."
+    "    -s                   Write article to a .md file."
 )
 
 
@@ -36,7 +36,7 @@ def main():
         if char not in '<>:"\\/|?*\0':
             title += char
 
-    filename = "-".join(title.lower().split(' ')) + ".txt"
+    filename = "-".join(title.lower().split(' ')) + ".md"
 
     if len(sys.argv) == 2:
         print(res.text)
