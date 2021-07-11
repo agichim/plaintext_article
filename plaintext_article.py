@@ -33,10 +33,10 @@ def main():
     for char in res.text:
         if char == "\n":
             break
-        if char not in '<>:"\\/|?*\0':
+        if char not in '<>\':-"\\/|?*\0':
             title += char
 
-    filename = "-".join(title.lower().split(' ')) + ".md"
+    filename = "article." + "".join(title.lower().split(' ')) + ".md"
 
     if len(sys.argv) == 2:
         print(res.text)
