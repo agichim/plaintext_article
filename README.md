@@ -2,10 +2,9 @@
 
 - saves article title as `article.thisisasavedarticle.md`
 - remove extra characters from title:
-  - simple quotation mark
-  - hyphen
+  - simple quotation mark `'`
+  - hyphen `-`
 
---
 --
 # Plaintext Article
 
