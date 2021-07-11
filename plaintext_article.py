@@ -43,9 +43,8 @@ def main():
         sys.exit()
 
     with open(filename, "w") as file:
-        file.write(f"{res.text}\n\n---\n{sys.argv[1]}")
-        print(res.text)
-        print(f"\n\n\nSaved to `{filename}`.")
+        file.write(f"{sys.argv[1]}")
+        print(f"Saved to `{filename}`.")
 
 
 if __name__ == "__main__":
