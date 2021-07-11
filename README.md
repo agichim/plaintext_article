@@ -6,7 +6,7 @@
   - hyphen
 
 --
-
+--
 # Plaintext Article
 
 A simple python script I use for reading articles in plain text.
