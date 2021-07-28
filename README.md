@@ -4,7 +4,6 @@
 - remove extra characters from title:
   - simple quotation mark `'`
   - hyphen `-`
-- don't print to screen when saving article as a file
 
 --
 # Plaintext Article
